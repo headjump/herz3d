@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas type="text/javascript" class="herz3d"></canvas>
+<script src="herz3d.js"></script>
+<script src="game.js"></script>
+<script type="text/javascript">
+  (function(){
+    HERZ3D.init(document.getElementsByTagName("canvas")[0],GAME.start);
+    GAME.start;
+  })()
+</script>
+</body>
+</html>
